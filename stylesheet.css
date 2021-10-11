@@ -1,0 +1,18 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	background: #3d0303;
+	background-image: url(books.jpg);
+}
+
+.form_wrapper {
+	background: rgb(135, 127, 150);
+	width: 450px;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 25px;
+	margin: 8% auto 0;
+	position: relative;
+	z-index: 1;
+	border-top: 5px solid yellow;
+}

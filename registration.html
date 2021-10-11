@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>member registration</title>
+
+   <style>
+      
+   </style>
+</head>
+<body>
+  <a href="index.html"><img src="atu.png" style="height: 80px; font-size: 120px;"></a>
+    <div class="form_wrapper">
+        <div class="form_container">
+          <div class="title_container">
+            <h2>Membership Registration Form</h2>
+          </div>
+          <div class="row clearfix">
+            <div class="">
+    <form action="processor.php" method="POST">
+     <div class="input_field">
+         Enter your First Name: 
+        <input type="text" name="first_name" placeholder="Fisrt Name" required />
+      </div>
+      <div class="input_field" > 
+        Enter your Last Name:
+        <input type="text" name="last_name" placeholder="Last Name" required />
+      </div>
+      <div class="input_field"> 
+        Enter your Email:
+        <input type="text" name="email" placeholder="Email" required />
+      </div>
+      <div>
+        <!-- Gender:  -->
+        Select your Gender: &nbsp;&nbsp; 
+        Male:
+        <input type="radio" name="gender" value="male">
+        Female:
+        <input type="radio" name="gender" value="Female"><br>
+      </div>
+      <div class="input_field"> 
+        Enter Phone Number:
+        <input type="text" name="phone" placeholder="Phone Number" required />
+      </div>
+      <div class="input_field"> 
+        Enter your Location:
+        <input type="text" name="location" placeholder="Location eg Kaneshi, Swedru" required />
+      </div>
+      <!-- <div class="input" id="region">  -->
+        Select your Region:
+          <select name="region" id="">
+            <option value="Greater Accra Region">Greater Accra Region</option>
+            <option value="Central Region">Central Region</option>
+            <option value="Upper West Region">Upper West Region</option>
+            <option value="Upper East Region">Upper East Region</option>
+            <option value="Volta Region">Volta Region</option>
+            <option value="ti Region">Oti Region</option>
+            <option value="Savannah Region">Savannah Region</option>
+            <option value="Western  Region">Western  Region</option>
+            <option value="Western North Region">Western North Region</option>
+            <option value="Ashanti Region">Ashanti Region</option>
+            <option value="Eastern Region">Eastern Region</option>
+            <option value="Ahafo Region">Ahafo Region</option>
+            <option value="Bono Region">Bono Region</option>
+            <option value="Bono East Region">Bono East Region</option>
+            <option value="Northen Region">Northen Region</option>
+            <option value="Northen Region">North East Region</option>
+          </select>
+        <br>
+      <!-- </div> -->
+      <a href="index.html"></a><input class="button" type="submit" value="Submit" style="color: blue;" />
+    </div>
+  </div>
+ </div>
+</div>
+
+</form>
+<br>
+<br>
+<a href="index.html"><p><h2>Home</h2></p></a>
+</body>
+<footer style="text-align: center;">
+  <div class="glyphicon-copyright-mark new"><br>
+      <p class="glyphicon-copyright-mark text-white text-center">&copy; October 2021 Copyright : Emmanuel A.K Menkah</p>
+  </div>
+</footer>
+</html>
