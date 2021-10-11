@@ -45,3 +45,6 @@ else{
 </body>
 <a href="index.html"><p>Return to Home Page</p></a>
 </html>
+<?php
+    // Just a comment
+?>
