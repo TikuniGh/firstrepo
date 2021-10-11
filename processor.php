@@ -8,7 +8,6 @@
 <body>
 <a href="index.html"><img src="atu.png" style="height: 80px; font-size: 120px;"></a>
 <?php
-//include connection file
 include('connection.php');
 
 //pick data from post array
